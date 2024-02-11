@@ -3,7 +3,6 @@ import sys
 import json
 
 print("")
-
 prefix = input("Introduce el PREFIJO: (adk_)")
 if prefix == "":
     prefix = "adk_"
