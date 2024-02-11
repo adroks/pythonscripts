@@ -8,11 +8,10 @@ print(sys.executable)
 
 exec_path = sys.executable.replace("\\", "\\\\")
 curr_path = os.getcwd().replace("\\", "\\\\")
-iconfile = os.path.join(os.getcwd(), "icono.ico").replace("\\", "\\\\")
+iconfile = os.path.join(os.getcwd(), "favicon.ico").replace("\\", "\\\\")
 
 f = open('registro.json')
 registro = json.load(f)
-
 
 f = open("registro.reg", "w")
 f.write("Windows Registry Editor Version 5.00\n")
