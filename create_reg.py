@@ -13,6 +13,7 @@ iconfile = os.path.join(os.getcwd(), "icono.ico").replace("\\", "\\\\")
 f = open('registro.json')
 registro = json.load(f)
 
+
 f = open("registro.reg", "w")
 f.write("Windows Registry Editor Version 5.00\n")
 f.write("\n")
