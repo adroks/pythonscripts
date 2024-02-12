@@ -1,5 +1,5 @@
 # pythonscripts
-Scripts de Python, con opción de añadir al registro de Windows
+Scripts de Python, con opción de añadir al registro de Windows. Modifica el icono a tu gusto
 
 ### deploy.py
 Selecionando un fichero .md con las rutas relativas de ficheros creará un ZIP.
@@ -14,3 +14,4 @@ Indicando una carpeta eliminará las subcarpetas vacías.
 Añade los scripts anteriores al menú contextual de Windows. 
 *Ejecutar como Administrador*
 
+registro.json contiene las rutas para el registro de Windows
