@@ -1,26 +1,32 @@
 [
-	{
-	    "file": "resize_images",
-	    "path": "Directory\\Background\\shell",
-	    "text": "Generar Thumbnails",
-	    "command": "%V"
-	},
-	{
-	    "file": "empty_directories",
-	    "path": "Directory\\Background\\shell",
-	    "text": "Eliminar subcarpetas vacías aquí",
-	    "command": "%V"
-	},
-	{
-	    "file": "empty_directories",
-	    "path": "Directory\\shell",
-	    "text": "Eliminar subcarpetas vacías en esta carpeta",
-	    "command": "%1"
-	},
-	{
-	    "file": "deploy",
-	    "path": ".md\\shell",
-	    "text": "Crear Zip para Despliegue",
-	    "command": "%1"
-	}
+    {
+        "file": "resize_images",
+        "path": "Directory\\Background\\shell",
+        "text": "Generar Thumbnails",
+        "command": "%V"
+    },
+    {
+        "file": "resize_images",
+        "path": "Directory\\shell",
+        "text": "Generar Thumbnails",
+        "command": "%1"
+    },
+    {
+        "file": "empty_directories",
+        "path": "Directory\\Background\\shell",
+        "text": "Eliminar subcarpetas vacías aquí",
+        "command": "%V"
+    },
+    {
+        "file": "empty_directories",
+        "path": "Directory\\shell",
+        "text": "Eliminar subcarpetas vacías en esta carpeta",
+        "command": "%1"
+    },
+    {
+        "file": "deploy",
+        "path": ".md\\shell",
+        "text": "Crear Zip para Despliegue",
+        "command": "%1"
+    }
 ]
