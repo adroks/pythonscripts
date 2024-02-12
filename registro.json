@@ -1,33 +1,25 @@
 [
 	{
 	    "file": "resize_images",
-	    "path": "HKEY_CLASSES_ROOT\\Directory\\Background\\shell",
+	    "path": "Directory\\Background\\shell",
 	    "text": "Generar Thumbnails",
 	    "command": "%V"
 	},
 	{
 	    "file": "empty_directories",
-	    "path": "HKEY_CLASSES_ROOT\\Directory\\Background\\shell",
+	    "path": "Directory\\Background\\shell",
 	    "text": "Eliminar subcarpetas vacías aquí",
 	    "command": "%V"
 	},
 	{
 	    "file": "empty_directories",
-	    "path": "HKEY_CLASSES_ROOT\\Directory\\shell",
+	    "path": "Directory\\shell",
 	    "text": "Eliminar subcarpetas vacías en esta carpeta",
 	    "command": "%1"
 	},
 	{
-	    "file": ".md",
-	    "path": "HKEY_CLASSES_ROOT\\SystemFileAssociations"
-	},
-	{
-	    "file": "shell",
-	    "path": "HKEY_CLASSES_ROOT\\SystemFileAssociations\\.md"
-	},
-	{
 	    "file": "deploy",
-	    "path": "HKEY_CLASSES_ROOT\\SystemFileAssociations\\.md\\shell",
+	    "path": ".md\\shell",
 	    "text": "Crear Zip para Despliegue",
 	    "command": "%1"
 	}
