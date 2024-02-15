@@ -25,8 +25,20 @@
     },
     {
         "file": "deploy",
-        "path": ".md\\shell",
+        "path": "SystemFileAssociations\\.md\\shell",
         "text": "Crear Zip para Despliegue",
+        "command": "%1"
+    },
+    {
+        "file": "csv_to_json",
+        "path": "SystemFileAssociations\\.csv\\shell",
+        "text": "CSV to JSON",
+        "command": "%1"
+    },
+    {
+        "file": "json_to_csv",
+        "path": "SystemFileAssociations\\.json\\shell",
+        "text": "JSON to CSV",
         "command": "%1"
     }
 ]
