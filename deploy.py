@@ -4,7 +4,6 @@ import sys
 import datetime
 
 
-print(sys.executable)
 
 print("")
 if len(sys.argv) > 1:

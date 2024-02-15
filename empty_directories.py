@@ -9,8 +9,8 @@ def delete_directories(root_dir):
             print('Empty directory: {}'.format(curdir))
             os.rmdir(curdir)
             empty = True
-        elif len(subdirs) > 0 and len(files) > 0:
-            print('Used directory: {}'.format(curdir))
+        # elif len(subdirs) > 0 and len(files) > 0:
+        #     print('Used directory: {}'.format(curdir))
     return empty
 
 def main():
