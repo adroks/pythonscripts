@@ -31,11 +31,11 @@ def main():
     while delete_directories(origen):
         print("")
 
-    print("")
-    print("Finalizado")
-    print("")
+    #print("")
+    #print("Finalizado")
+    #print("")
 
-    endd = input("Presiona Intro para salir.")
+    #endd = input("Presiona Intro para salir.")
 
 
 if __name__ == "__main__":

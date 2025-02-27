@@ -30,8 +30,6 @@ def main():
         json_file_path = pre + ".json"
         csv_to_json(csv_file_path, json_file_path)
 
-    input("Presiona Intro para salir.")
-
 
 if __name__ == "__main__":
     main()
